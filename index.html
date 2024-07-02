@@ -4,35 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Tech Goals</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <header>
-        <h1 data-testid="slackDisplayName">Your Slack Display Name</h1>
-        <img src="profile-picture.jpg" alt="Slack Profile Picture" data-testid="slackProfilePicture">
-        <p data-testid="slackEmail">youremail@domain.com</p>
+        <h1>My Tech Goals for the Next 2 Years</h1>
     </header>
+
     <main>
-        <section>
-            <h2>My Tech Goals for the Next 2 Years</h2>
-            <ul>
-                <li>Learn advanced JavaScript and frameworks like React and Angular.</li>
-                <li>Build and deploy full-stack applications.</li>
-                <li>Contribute to open-source projects.</li>
-                <li>Obtain a certification in cloud computing.</li>
-                <li>Enhance my knowledge in cybersecurity.</li>
-            </ul>
+        <section class="profile">
+            <img src="assets/img/Snapchat-2067889487.jpg" alt="Slack Profile Picture" data-testid="slackProfilePicture" />
+            <p data-testid="slackDisplayName">OnimoleTee</p>
+            <p data-testid="slackEmail">Onimolesodiq282@gmail.com</p>
         </section>
-        <section>
-            <p data-testid="currentTimeUTC">Current Time in UTC: <span id="utc-time"></span></p>
-            <p data-testid="currentDay">Current Day: <span id="current-day"></span></p>
+
+        <section class="goals">
+            <h2>Goals</h2>
+
+            <div class="goal">
+                <h3>Master JavaScript and Modern Frameworks</h3>
+                <p>Deepen my knowledge in JavaScript and become proficient in frameworks like React and Vue.js to build robust and scalable web applications.</p>
+            </div>
+
+            <div class="goal">
+                <h3>Contribute to Open Source Projects</h3>
+                <p>Engage with the developer community by contributing to open source projects, helping to improve software and learn from other developers.</p>
+            </div>
+
+            <div class="goal">
+                <h3>Build a Personal Portfolio</h3>
+                <p>Create a personal portfolio to showcase my projects, skills, and achievements, providing a professional online presence.(Which is currently a working progress)</p>
+            </div>
+
+            <div class="goal">
+                <h3>Learn Backend Development</h3>
+                <p>Expand my skills to include backend development using technologies such as Node.js and Express, enabling me to develop full-stack applications.</p>
+            </div>
+
+            <div class="goal">
+                <h3>Improve Problem-Solving Skills</h3>
+                <p>Enhance my problem-solving abilities by regularly participating in coding challenges and competitions, sharpening my logical and analytical thinking.</p>
+            </div>
         </section>
-        <section>
-            <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
-            <a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
-            <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a>
+
+        <section id="current-info">
+            <p>Current Time (UTC): <span data-testid="currentTimeUTC"></span></p>
+            <p>Current Day: <span data-testid="currentDay"></span></p>
+        </section>
+
+        <section id="links">
+            <h2>Useful Links</h2>
+            <a href="https://hng.tech/learn" data-testid="hngLink" target="_blank">HNG Learn</a>
+            <a href="https://keyword.dog" data-testid="keywordLink" target="_blank">Keyword Dog</a>
+            <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink" target="_blank">Scrape Any Web</a>
         </section>
     </main>
-    <script src="script.js"></script>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
