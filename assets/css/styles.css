@@ -41,16 +41,10 @@ main {
 }
 
 .profile img {
-    width:150px;
+    width:200px;
     height: auto;
-    border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.profile img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .profile p {
@@ -90,18 +84,18 @@ main {
     background-color: #b2ebf2;
 }
 
-#current-info p {
+.current-info p {
     font-size: 1.2em;
     margin: 10px 0;
 }
 
-#links h2 {
+.links h2 {
     font-size: 2em;
     color: #4CAF50;
     animation: fadeIn 1s ease-in-out;
 }
 
-#links a {
+.links a {
     display: block;
     margin: 10px 0;
     padding: 12px;
@@ -113,7 +107,7 @@ main {
     transition: background-color 0.3s, transform 0.3s;
 }
 
-#links a:hover {
+.links a:hover {
     background-color: #45a049;
     transform: translateY(-5px);
 }
@@ -125,7 +119,7 @@ main {
         margin-top: 0;
     }
 
-    #profile img {
+    .rofile img {
         width: 100px;
         height: 100px;
     }
@@ -134,7 +128,7 @@ main {
         font-size: 2em;
     }
 
-    #goals h2, #links h2 {
+    .goals h2, .links h2 {
         font-size: 1.5em;
     }
 
